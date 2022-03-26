@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|bottom|left"
+    tools:context=".Practica2"
+    >
+
+
+
+     <Button
+        android:id="@+id/comeback2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:text="Regresar al menu" />
+
+     <TextView
+        android:id="@+id/TituloPractica2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="0dp"
+        android:background="#FFC107"
+        android:text="PRACTICA #2: Joystick de un videojuego"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+     <Button
+         android:id="@+id/arriba"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginStart="163dp"
+         android:layout_marginTop="113dp"
+         android:text="ARRIBA" />
+
+     <Button
+         android:id="@+id/abajo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginStart="163dp"
+         android:layout_marginTop="283dp"
+         android:text="ABAJO" />
+
+     <Button
+         android:id="@+id/derecha"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentEnd="true"
+         android:layout_marginTop="190dp"
+         android:layout_marginEnd="30dp"
+         android:text="DERECHA" />
+
+     <Button
+         android:id="@+id/izquierda"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginStart="14dp"
+         android:layout_marginTop="190dp"
+         android:text="IZQUIERDA" />
+
+     <TextView
+         android:id="@+id/x"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/abajo"
+         android:layout_alignParentTop="false"
+         android:layout_centerHorizontal="false"
+         android:layout_marginHorizontal="100dp"
+         android:layout_marginTop="50dp"
+         android:hint="CC x"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:textStyle="bold" />
+
+
+     <TextView
+         android:id="@+id/y"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/x"
+         android:layout_alignParentTop="false"
+         android:layout_centerHorizontal="false"
+         android:layout_marginHorizontal="100dp"
+         android:layout_marginTop="10dp"
+         android:hint="CC y"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:textStyle="bold" />
+
+      <TextView
+         android:id="@+id/coordenada_final"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/y"
+         android:layout_alignParentTop="false"
+         android:layout_centerHorizontal="false"
+         android:layout_marginHorizontal="100dp"
+         android:layout_marginTop="10dp"
+         android:hint="Coordenada final."
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:textStyle="bold" />
+
+
+
+</RelativeLayout>

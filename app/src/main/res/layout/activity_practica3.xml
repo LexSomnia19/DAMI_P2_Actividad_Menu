@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    tools:context=".Practica3">
+
+ <Button
+     android:id="@+id/comeback3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+
+     android:layout_alignParentStart="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="0dp"
+     android:text="Regresar al menu" />
+
+    <Button
+        android:id="@+id/btnImprimirTabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IntNumero"
+        android:layout_marginHorizontal="100dp"
+        android:text="Imprimir Tabla de Multiplicar." />
+
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:text="PRACTICA #3: Tablas de multiplicar."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instruccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo3"
+        android:layout_alignParentTop="false"
+
+        android:layout_centerHorizontal="false"
+        android:text="Introduce el numero del que quieras imprimir su tabla de multiplicar:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/IntNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instruccion"
+         android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="15dp"
+        android:hint="Numero:"
+        android:textAlignment="center" />
+
+   <TextView
+       android:id="@+id/MostrarTablas"
+       android:layout_width="292dp"
+       android:layout_height="476dp"
+       android:layout_below="@+id/btnImprimirTabla"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="27dp"
+       android:layout_marginEnd="64dp"
+       android:layout_marginBottom="125dp"
+       android:textAlignment="center"
+       android:textSize="18sp"
+       android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    tools:context=".Practica4">
+
+    <Button
+        android:id="@+id/comeback4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materia5"
+        android:layout_marginStart="0dp"
+        android:text="Regresar al menu" />
+
+
+    <Button
+        android:id="@+id/btnPromedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materia5"
+        android:layout_alignRight="@+id/materia5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:text="Calcular Promedio" />
+
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:text="PRACTICA #4: Promedio de un alumno."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instruccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo3"
+        android:layout_alignParentTop="false"
+
+        android:layout_centerHorizontal="false"
+        android:text="Introduce las calificaciones del alumno, considera el 100 como la nota mas alta:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/materia1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instruccion"
+        android:hint="ESPAÑOL I:" />
+
+    <EditText
+        android:id="@+id/materia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MATEMATICAS I:"
+        android:layout_below="@+id/materia1"/>
+
+    <EditText
+        android:id="@+id/materia3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CIENCIAS SOCIALES:"
+        android:layout_below="@+id/materia2" />
+
+    <EditText
+        android:id="@+id/materia4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="QUÍMICA:"
+        android:layout_below="@+id/materia3"/>
+
+    <EditText
+        android:id="@+id/materia5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INGLES 1:"
+       android:layout_below="@+id/materia4" />
+
+</RelativeLayout>
